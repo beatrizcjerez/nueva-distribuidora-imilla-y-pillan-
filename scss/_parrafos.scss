@@ -1,0 +1,50 @@
+/* parrafo productos*/
+.productos{
+    background-color: rgb(16, 182, 38);
+    color: rgb(240, 213, 213);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+/*parrafos*/    
+.parrafoCarru{
+    display: flex;
+    justify-content: center;
+    color:  rgb(240, 213, 213);
+    background-color: blueviolet ;
+    font-size: 22px;
+}
+
+
+/*parrafos h */
+/*alimento seco*/
+.alimentoSeco{
+    display: flex;
+    justify-content: center;
+    color:  rgb(240, 213, 213);
+    background-color: blueviolet ;
+    font-size: 25px;
+    margin-bottom: 1rem;
+   
+}
+.alimentoHumedo{
+    display: flex;
+    justify-content: center;
+    color:  rgb(240, 213, 213);
+    background-color: blueviolet ;
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.parrafoFarmapet{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    color:  rgb(240, 213, 213);
+}
+.pImgGato{
+    font-size: 22px;
+}
