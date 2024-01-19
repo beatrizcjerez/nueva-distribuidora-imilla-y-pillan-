@@ -1,8 +1,8 @@
     /*Botones*/
     /*boton de añadir carrito*/
     .btnCard {
-        background-color: rgb(16, 182, 38);
-        color: rgb(240, 213, 213);
+        background-color:$color-fondo;
+        color:$color-nombre-botones;
         border: none;
         font-size: 20px;
         border-radius: 20px;
@@ -16,18 +16,18 @@
     /* boton añadir carrito con hover */
 
     .btnMenuIniciarSesion {
-        background-color: blueviolet;
+        background-color:$color-fondo-boton;
         border: none;
         border-radius: 10px;
-        color: rgb(240, 213, 213);
+        color:$color-nombre-botones;
         font-size: 18px;
         padding: 5px;
         margin-left: 20px;
     }
 
     .btnComprar {
-        background-color: blueviolet;
-        color: rgb(240, 213, 213);
+        background-color:$color-fondo-boton;
+        color: $color-nombre-botones;
         font-size: 18px;
         border: none;
         border-radius: 10px;
@@ -35,7 +35,7 @@
         text-decoration: none;
 
         &:hover {
-            color: rgb(115, 26, 198);
-            background-color: rgb(16, 182, 38);
+            color:$color-fondo-boton;
+            background-color:$color-fondo;
         }
     }

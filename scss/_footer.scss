@@ -1,3 +1,19 @@
 /*footer*/
+footer {
+    background-color: $color-fondo;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        list-style: none;
+    }
 
 
+}

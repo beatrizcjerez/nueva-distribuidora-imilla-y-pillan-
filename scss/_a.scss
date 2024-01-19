@@ -1,6 +1,6 @@
 /*estilos a links (a)*/
 .amenuBst {
-    color: rgb(240, 213, 213);
+    color:$color-nombre-botones;
     font-size: 23px;
     margin: 12px;
     
@@ -10,16 +10,16 @@
 .aCategorias {
     margin: 4rem;
     font-size: 22px;
-    color: rgb(240,213,213);
+    color:$color-nombre-botones;
 }
 
 a {
     text-decoration: none;
     font-size: 22px;
-    color: rgb(240,213,213);
+    color:$color-nombre-botones;
     gap: 3rem;
 
     &:hover {
-        color: blueviolet;
+        color:$color-fondo-boton;
     }
 }

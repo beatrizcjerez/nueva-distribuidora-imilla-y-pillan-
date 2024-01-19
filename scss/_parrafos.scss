@@ -1,6 +1,6 @@
 /* parrafo productos*/
 .productos {
-    background-color: rgb(16, 182, 38);
+    background-color:$color-fondo;
     color: rgb(240, 213, 213);
     text-align: center;
     font-size: 18px;
@@ -13,9 +13,10 @@
   .parrafoCarru {
     display: flex;
     justify-content: center;
-    color: rgb(240, 213, 213);
-    background-color: blueviolet;
-    font-size: 22px;
+    color:$color-nombre-botones;
+    background-color:$color-fondo-boton;
+    font-size: 25px;
+    padding: 1rem;
   }
   
   /*parrafos h */
@@ -24,8 +25,8 @@
   .alimentoSeco {
     display: flex;
     justify-content: center;
-    color: rgb(240, 213, 213);
-    background-color: blueviolet;
+    color:$color-nombre-botones;
+    background-color:$color-fondo-boton;
     font-size: 25px;
     margin-bottom: 1rem;
   }
@@ -33,8 +34,8 @@
   .alimentoHumedo {
     display: flex;
     justify-content: center;
-    color: rgb(240, 213, 213);
-    background-color: blueviolet;
+    color:$color-nombre-botones;
+    background-color:$color-fondo-boton;
     font-size: 25px;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -43,11 +44,13 @@
   .parrafoFarmapet {
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
-    color: rgb(240, 213, 213);
+    background-color: $color-fondo-boton;
+    color:$color-nombre-botones;
+    padding: 1rem;
+    font-size: 25px;
   }
   
-  .pImgGato {
+  .pImgGatoFarma {
     font-size: 22px;
   }
   
