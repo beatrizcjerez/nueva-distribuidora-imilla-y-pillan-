@@ -22,7 +22,7 @@
   /*parrafos h */
   /*alimento seco*/
   
-  .alimentoSeco {
+  .alimentoSeco, .alimentoSeco{
     display: flex;
     justify-content: center;
     color:$color-nombre-botones;
@@ -31,14 +31,14 @@
     margin-bottom: 1rem;
   }
   
-  .alimentoHumedo {
+  .accesoriosPerros,.accesoriosGatos,.pOfertasGatis {
     display: flex;
     justify-content: center;
     color:$color-nombre-botones;
     background-color:$color-fondo-boton;
-    font-size: 25px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    font-size: 30px;
+    padding: 1rem;
+  
   }
   
   .parrafoFarmapet {

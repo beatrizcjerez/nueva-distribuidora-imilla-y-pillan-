@@ -2,9 +2,7 @@
 .amenuBst {
     color:$color-nombre-botones;
     font-size: 23px;
-    margin: 12px;
-    
-    
+    margin: 12px;  
 }
 
 .aCategorias {
@@ -18,8 +16,10 @@ a {
     font-size: 22px;
     color:$color-nombre-botones;
     gap: 3rem;
+    
 
     &:hover {
         color:$color-fondo-boton;
+       
     }
 }

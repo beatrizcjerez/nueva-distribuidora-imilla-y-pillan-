@@ -1,6 +1,6 @@
 /*footer*/
 footer {
-    background-color: $color-fondo;
+    background:linear-gradient(rgb(6, 231, 6),rgb(52, 1, 57));
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-top: 1rem;
@@ -15,5 +15,13 @@ footer {
         list-style: none;
     }
 
-
+    p {
+        text-transform: uppercase;
+        color: bisque;
+    }
+    h2,h3,h4,h5,h6 {
+        color: bisque;
+        text-transform: uppercase;
+    }
+    
 }

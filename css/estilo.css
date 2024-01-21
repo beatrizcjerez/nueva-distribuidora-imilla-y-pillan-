@@ -9,12 +9,12 @@
 }
 
 .header {
-  background-color: rgb(7, 203, 33);
+  background-color: rgb(14, 191, 38);
 }
 
 .tituloPrincipal {
   font-size: 30px;
-  color: blueviolet;
+  color: rgb(133, 13, 245);
   font-weight: bold;
   margin-left: 1rem;
 }
@@ -39,7 +39,7 @@
 }
 
 .logoWhats {
-  width: 60px;
+  width: 65px;
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -47,7 +47,7 @@
 
 /* parrafo productos*/
 .productos {
-  background-color: rgb(7, 203, 33);
+  background-color: rgb(14, 191, 38);
   color: rgb(240, 213, 213);
   text-align: center;
   font-size: 18px;
@@ -60,36 +60,35 @@
   display: flex;
   justify-content: center;
   color: rgb(240, 213, 213);
-  background-color: blueviolet;
+  background-color: rgb(133, 13, 245);
   font-size: 25px;
   padding: 1rem;
 }
 
 /*parrafos h */
 /*alimento seco*/
-.alimentoSeco {
+.alimentoSeco, .alimentoSeco {
   display: flex;
   justify-content: center;
   color: rgb(240, 213, 213);
-  background-color: blueviolet;
+  background-color: rgb(133, 13, 245);
   font-size: 25px;
   margin-bottom: 1rem;
 }
 
-.alimentoHumedo {
+.accesoriosPerros, .accesoriosGatos, .pOfertasGatis {
   display: flex;
   justify-content: center;
   color: rgb(240, 213, 213);
-  background-color: blueviolet;
-  font-size: 25px;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  background-color: rgb(133, 13, 245);
+  font-size: 30px;
+  padding: 1rem;
 }
 
 .parrafoFarmapet {
   display: flex;
   justify-content: center;
-  background-color: blueviolet;
+  background-color: rgb(133, 13, 245);
   color: rgb(240, 213, 213);
   padding: 1rem;
   font-size: 25px;
@@ -108,21 +107,24 @@
 /*Botones*/
 /*boton de añadir carrito*/
 .btnCard {
-  background-color: rgb(7, 203, 33);
+  background-color: rgb(14, 191, 38);
   color: rgb(240, 213, 213);
   border: none;
   font-size: 20px;
   border-radius: 20px;
   margin: 1rem;
+  font-weight: bold;
+  transition: all 1s;
 }
-
 .btnCard:hover {
-  color: blueviolet;
+  color: rgb(106, 13, 193);
+  width: 250px;
+  height: 30px;
 }
 
 /* boton añadir carrito con hover */
 .btnMenuIniciarSesion {
-  background-color: blueviolet;
+  background-color: rgb(133, 13, 245);
   border: none;
   border-radius: 10px;
   color: rgb(240, 213, 213);
@@ -132,18 +134,19 @@
 }
 
 .btnComprar {
-  background-color: blueviolet;
+  background-color: rgb(133, 13, 245);
   color: rgb(240, 213, 213);
-  font-size: 18px;
+  font-size: 20px;
   border: none;
   border-radius: 10px;
-  padding: 2px;
+  padding: 10px;
   text-decoration: none;
+  font-weight: bold;
+  transition: all 1s;
 }
-
 .btnComprar:hover {
-  color: blueviolet;
-  background-color: rgb(7, 203, 33);
+  color: rgb(240, 213, 213);
+  background-color: rgb(14, 191, 38);
 }
 
 /*estilos a links (a)*/
@@ -165,27 +168,32 @@ a {
   color: rgb(240, 213, 213);
   gap: 3rem;
 }
-
 a:hover {
-  color: blueviolet;
+  color: rgb(133, 13, 245);
 }
 
 /*footer*/
 footer {
-  background-color: rgb(7, 203, 33);
+  background: linear-gradient(rgb(6, 231, 6), rgb(52, 1, 57));
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 footer ul {
   display: flex;
   justify-content: center;
 }
-
 footer li {
   list-style: none;
-} 
+}
+footer p {
+  text-transform: uppercase;
+  color: bisque;
+}
+footer h2, footer h3, footer h4, footer h5, footer h6 {
+  color: bisque;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=estilo.css.map */
