@@ -20,18 +20,10 @@
   }
   
   /*parrafos h */
-  /*alimento seco*/
+  //separador de secciones 
   
-  .alimentoSeco, .alimentoSeco{
-    display: flex;
-    justify-content: center;
-    color:$color-nombre-botones;
-    background-color:$color-fondo-boton;
-    font-size: 25px;
-    margin-bottom: 1rem;
-  }
   
-  .accesoriosPerros,.accesoriosGatos,.pOfertasGatis {
+  .accesoriosPerros,.accesoriosGatos,.pOfertasGatis,.alimentoHumedo,.alimentoSeco {
     display: flex;
     justify-content: center;
     color:$color-nombre-botones;

@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contacto</title>
+    <meta name="description" content="Contacto directo con nosotros">
+    <title>Contacto-Distribuidora</title>
+    <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
@@ -18,7 +20,7 @@
             <div class="container-fluid">
                 <div>
                     <!--titulo header-->
-                    <h1 class="tituloPrincipal">CONTACTANOS</h1>
+                    <h1 class="tituloPrincipal">CONTÁCTANOS</h1>
 
                     <!--logo header-->
                     <img class="logitoPerros" src="../img/logo.jpg" alt="logo contacto">
@@ -51,7 +53,8 @@
                                     Otros
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="accesoriospyg.html">Accesorios Perros y Gatos</a></li>
+                                    <li><a class="dropdown-item" href="accesoriospyg.html">Accesorios Perros y Gatos</a>
+                                    </li>
                                     <li><a class="dropdown-item" href="farmapet.html">Farmapet</a></li>
                                     <li><a class="dropdown-item" href="ofertas.html">Ofertas</a></li>
                                 </ul>
@@ -63,39 +66,81 @@
             </div>
         </nav>
     </header>
-
+    <h2 class="parrafoFarmapet">FORMULARIO DE CONTACTO</h2>
     <main>
-        <div class="d-flex justify-content-center m-3">
-        
-             <form>
-                <div>
-                    <input type="text" placeholder="Ingrese su Nombre" required>
+        <div class="form">
+            <form class="row g-3 needs-validation " novalidate>
+                <div class="col-md-4">
+                    <label for="validationCustom01" class="form-label">NOMBRE</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="Nombre" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
-
-                <div>
-                    <input type="text" placeholder="Ingrese su Apellido" required>
+                <div class="col-md-4">
+                    <label for="validationCustom02" class="form-label">APELLIDO </label>
+                    <input type="text" class="form-control" id="validationCustom02" value="Apellido" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
-
-                <div>
-                    <input type="text" placeholder="Ingrese su Mail" required>
+                <div class="col-md-4">
+                    <label for="validationCustomUsername" class="form-label">MAIL</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername"
+                            aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Please choose a username.
+                        </div>
+                    </div>
                 </div>
-
-                <div>
-                    <input type="text" placeholder="Ingrese su Número" required>
+                <div class="col-md-6">
+                    <label for="validationCustom03" class="form-label">CIUDAD</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
                 </div>
-                <div>
-                    <textarea cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">COMUNA</label>
+                    <select class="form-select" id="validationCustom04" required>
+                        <option selected disabled value="">Seleccionar Comuna</option>
+                        <option>...</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
                 </div>
-                <div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar">
-
+                <div class="col-md-3">
+                    <label for="validationCustom05" class="form-label">MENSAJE</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                    </div>
                 </div>
-
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            ACEPTA CONDICIONES
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btnComprar" class="btn btn-primary" type="submit">Enviar</button>
+                </div>
             </form>
         </div>
-        <div class="d-flex justify-content-center">
 
+
+
+        <h3 class="parrafoFarmapet">COMO LLEGAR</h3>
+        <P class="d-flex justify-content-center">"CONTAMOS CON ESTACIONAMIENTOS EXCLUSIVOS PARA NUESTROS CLIENTES"</P>
+        <div class="d-flex justify-content-center">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1663.3401947235!2d-70.59245811139986!3d-33.50969165693401!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x9662d04371680929%3A0xb7a2176e95c03a7b!2sAv.%20Departamental%201583%2C%20La%20Florida%2C%20Regi%C3%B3n%20Metropolitana!3m2!1d-33.5099252!2d-70.5926473!4m5!1s0x9662d044f8846309%3A0xd90d98734b612ff8!2sMacul%2C%20Macul!3m2!1d-33.5089465!2d-70.5900424!5e0!3m2!1ses!2scl!4v1701825286412!5m2!1ses!2scl"
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -106,7 +151,7 @@
 
     </main>
 
-    <footer >
+    <footer>
 
         <ul>
 
@@ -122,7 +167,7 @@
                 Horarios de atención:9.00 a 18:00</p>
 
             <h5>TODOS LOS DERECHOS RESERVADOS </h5>
-            <p>DISTRIBUIDORA IMILLA Y PILLÁN S.A</p>
+            <h6>DISTRIBUIDORA IMILLA Y PILLÁN S.A</h6>
             <a href="https://whatsapp.com/send?phone=123456789&text=Hola!%20 en%20que20%te20%ayudamos?" target="_blank">
                 <img class="logoWhats" src="../img/accesoriospyg/logo wasap.png" alt="logo whatsapp">
             </a>
