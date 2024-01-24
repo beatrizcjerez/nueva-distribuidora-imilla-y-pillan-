@@ -1,7 +1,13 @@
  
 @mixin p{ 
-      font-size: 18px;
+      font-size: 20px;
       font-weight: bold;
       color: blueviolet;
       text-transform: uppercase;
+}
+
+@mixin card{
+      font-size: 18px;
+      color: black;
+      
 }
