@@ -117,9 +117,10 @@
   border: none;
   border-radius: 10px;
   color: rgb(240, 213, 213);
-  font-size: 18px;
-  padding: 5px;
+  font-size: 20px;
+  padding: 8px;
   margin-left: 20px;
+  margin-right: 18px;
 }
 
 .btnComprar {
@@ -128,7 +129,7 @@
   font-size: 17px;
   border: none;
   border-radius: 10px;
-  padding: 8px;
+  padding: 10px;
   text-decoration: none;
   font-weight: bold;
   transition: all 1s;
@@ -152,19 +153,19 @@
 
 .amenuBst {
   color: rgb(240, 213, 213);
-  font-size: 23px;
+  font-size: 25px;
   margin: 12px;
 }
 
 .aCategorias {
   margin: 4rem;
-  font-size: 22px;
+  font-size: 25px;
   color: rgb(240, 213, 213);
 }
 
 a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 25px;
   color: rgb(240, 213, 213);
   gap: 3rem;
 }
@@ -192,6 +193,7 @@ footer p {
   color: bisque;
 }
 footer h2, footer h3, footer h4, footer h5, footer h6 {
+  font-size: 20px;
   color: bisque;
   text-transform: uppercase;
 }
