@@ -1,4 +1,4 @@
-/* parrafo productos*/
+
 .productos {
     background-color:$color-fondo;
     color: rgb(240, 213, 213);
@@ -8,8 +8,7 @@
     padding: 20px;
   }
   
-  /*parrafos*/
-  
+
   .parrafoCarru {
     display: flex;
     justify-content: center;
@@ -19,11 +18,12 @@
     padding: 1rem;
   }
   
-  /*parrafos h */
+
+
+  //parrafos h 
   //separador de secciones 
   
-  
-  .accesoriosPerros,.accesoriosGatos,.pOfertasGatis,.alimentoHumedo,.alimentoSeco {
+   .accesoriosPerros,.accesoriosGatos,.pOfertasGatis,.alimentoHumedo,.alimentoSeco {
     display: flex;
     justify-content: center;
     color:$color-nombre-botones;
