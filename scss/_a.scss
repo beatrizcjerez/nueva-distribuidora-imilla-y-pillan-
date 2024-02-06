@@ -1,16 +1,17 @@
 //estilos a links (a)
 .amenuBst {
-    color:$color-nombre-botones;
-    font-size: 25px;
-    margin: 12px;
-      
+    color: $color-nombre-botones;
+    font-size: 22px;
+    margin: 8px;   
 }
 
-.aCategorias {
-    margin: 4rem;
-    font-size: 25px;
-    color:$color-nombre-botones;
+.acategorias{
+   color: $color-nombre-botones; 
+   font-size: 22px;
+   margin :12 px;
+
 }
+
 
 a {
     text-decoration: none;
