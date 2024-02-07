@@ -33,6 +33,12 @@
   margin: 12px;
 }
 
+.aMenu {
+  color: rgb(240, 213, 213);
+  font-size: 25px;
+  margin: 3rem;
+}
+
 .aCategorias {
   color: rgb(240, 213, 213);
   font-size: 25px;
