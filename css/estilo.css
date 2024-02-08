@@ -22,23 +22,24 @@
   margin-left: 1rem;
 }
 
-
 .amenuBst {
   color: rgb(240, 213, 213);
   font-size: 25px;
   margin: 12px;
 }
 
+.menuIndex {
+  gap: 2rem;
+}
+
 .aMenu {
   color: rgb(240, 213, 213);
   font-size: 25px;
-  gap: 3rem;
 }
 
 .aCategorias {
   color: rgb(240, 213, 213);
   font-size: 25px;
-  gap: 3 rem;
 }
 
 a {
