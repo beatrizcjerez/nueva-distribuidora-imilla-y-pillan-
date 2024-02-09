@@ -1,17 +1,17 @@
 //estilos a links (a)
 .amenuBst {
     color: $color-nombre-botones;
-    font-size: 25px;
+    font-size: 22px;
     margin: 12px;   
 }
 
 
 a {
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     color:$color-nombre-botones;
-    font-weight: bold;
     gap: 3rem;
+    font-weight: bold;
     
 
     &:hover {
