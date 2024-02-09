@@ -28,6 +28,12 @@
   margin: 12px;
 }
 
+.amenuNav {
+  color: rgb(240, 213, 213);
+  font-size: 22px;
+  gap: 4rem;
+}
+
 a {
   text-decoration: none;
   font-size: 22px;
