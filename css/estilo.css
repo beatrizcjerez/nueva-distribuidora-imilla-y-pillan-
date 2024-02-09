@@ -28,10 +28,6 @@
   margin: 12px;
 }
 
-.menuNav {
-  gap: 3rem;
-}
-
 .aMenu {
   color: rgb(240, 213, 213);
   font-size: 25px;
@@ -136,8 +132,8 @@ a:hover {
   color: rgb(240, 213, 213);
   font-size: 18px;
   padding: 8px;
-  margin-left: 20px;
-  margin-right: 18px;
+  margin-left: 1rem;
+  margin-right: 10px;
 }
 
 .btnComprar {
